@@ -63,3 +63,46 @@ button{
     color:white;
     transition: none;
 }
+.project-img{
+    width:50%
+}
+.main-img{
+    width:50%;
+    margin: auto;
+}
+@media screen and (min-width:800px) {
+    .project-img{
+        width: 33%;
+    }
+    
+}
+@media screen and (min-width:1300px) {
+    .project-img{
+        width: 25%;
+    }
+    
+}
+@media screen and (min-width:1600px) {
+    .project-img{
+        width: 15%;
+    }
+    
+}
+@media screen and (max-width:1350px) {
+    .main-img{
+        width: 75%;
+    }
+    
+}
+input{
+    width: 25%;
+    padding: 12px;
+    margin:8px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 24.5vw;
+    height:25vh;
+    resize: none;
+    overflow:auto ;
+}
